@@ -38,7 +38,7 @@ const Fact = () => {
             <p className="text-topic">Fact Check?</p>
             <img className="icon" src="../img/toucan.png" alt="" />
 
-            <p>Get Some Facts</p>
+            <p>Get Enlightened</p>
           </div>
         ) : (
           <Display item1={fact.fact} />

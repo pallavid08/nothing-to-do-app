@@ -27,7 +27,7 @@ const Quote = () => {
             <p className="text-topic">Quote Check?</p>
             <img className="icon" src="../img/bird.png" alt="" />
 
-            <p>Get Some Ideas</p>
+            <p>Get Inspired</p>
           </div>
         ) : (
           <Display item1={quote.content} />

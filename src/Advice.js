@@ -27,7 +27,7 @@ const Advice = () => {
             <p className="text-topic">Need Advice?</p>
             <img className="icon" src="../img/owl.png" alt="" />
 
-            <p>Get Something To Do</p>
+            <p>Get A Little Wise</p>
           </div>
         ) : (
           <Display item1={advice.advice} />

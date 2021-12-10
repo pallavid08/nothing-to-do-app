@@ -25,7 +25,7 @@ const Bored = () => {
           <div>
             <p className="text-topic">Getting Bored?</p>
             <img className="icon" src="../img/penguin.png" alt="" />
-            <p>Get Some Ideas</p>
+            <p>Click For Ideas</p>
           </div>
         ) : (
           <Display item1={bored.activity} />

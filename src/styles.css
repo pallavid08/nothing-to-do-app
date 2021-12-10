@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Meow+Script&family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 30px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.display-container {
+  margin: 20px;
+}
+
+button {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+button:hover {
+  filter: brightness(90%);
+  transform: rotate(-5deg);
+}
+
+.item1 {
+  font-size: 15px;
+}
+
+.icon {
+  width: 70px;
+  padding: 10px;
+}
+.icon-main {
+  width: 100px;
+  margin: 20px;
+}
+.text-topic {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.text-refresh {
+  color: gray;
+  padding: 10px;
+}
+
+h1 {
+  font-family: "Pacifico", sans-serif;
+  font-weight: lighter;
+  color: lightcoral;
+  font-size: 50px;
+}
+
+.first-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.second-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 0 0 20px 50px;
+}
+.footer-wrapper p {
+  font-family: "Pacifico";
+  bottom: 0;
+  text-align: center;
+  padding: 20px;
+  color: lightcoral;
+  font-size: 20px;
+}
